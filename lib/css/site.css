@@ -1,0 +1,25 @@
+.customHeader {
+    background-color: royalblue;
+    color: white;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 52px;
+}
+
+.logout {
+    margin:24px; 
+    text-decoration-line: inherit; 
+    color: white;
+}
+
+.customFooter {
+    background-color:royalblue;
+    color:white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 52px;
+}
