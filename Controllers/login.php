@@ -16,17 +16,31 @@
 		}
 		else
 		{
+			$currentUser = $_SESSION['Email'];
 			$mysqlConnection = mySqlConnection();
-			$query = "select Email, Password from users where Email='$email' and Password='$password'  ";
+			$query = "select * from users where Email='$currentUser'";
 			$sqlExecution = mysqli_query($mysqlConnection, $query);
 			$rowsCount = mysqli_num_rows($sqlExecution);
-			if($rowsCount == 1 )
-			{
-				$_SESSION['loggedIn']='1';
-				$_SESSION['email'] = $email;
-				include('BitMascot/Views/login.php');
-				header('location: /BitMascot/Views/adminHome.php');	
+			if($sqlExecution){
+				if($rowsCount($sqlExecution) > 0){
+					while($row = mysqli_fetch_array($sqlExecution)){
+						
+							$_SESSION['email'] = $email;
+							$_SESSION['age'] = $age;
+							include('BitMascot/Views/login.php');
+							header('location: /BitMascot/Views/userProfile.php');	
+					}
+				}
 			}
+			
+			// if($row == 1 )
+			// {
+			// 	$_SESSION['loggedIn']='1';
+			// 	$_SESSION['email'] = $email;
+			// 	$_SESSION['age'] = $age;
+			// 	include('BitMascot/Views/login.php');
+			// 	header('location: /BitMascot/Views/userProfile.php');	
+			// }
 			else
 			{
 				echo "Incorrect email and password combination ! Please re-enter correct credentials.";
