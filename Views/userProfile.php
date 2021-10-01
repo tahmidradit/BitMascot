@@ -4,7 +4,7 @@
   include('navigation.php');
 ?>
 
-<link href="../lib/bootstrap-5.1.1-dist/css/bootstrap.min.css" rel="stylesheet">
+
 
 <?php 
   global $row;
