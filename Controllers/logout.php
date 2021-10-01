@@ -1,5 +1,6 @@
 <?php
-	session_start();
-	session_destroy();
-	header('location: /BitMascot/Views/homepage.html');
+session_start();
+unset($_SESSION['email']);
+session_destroy();
+header("Location: ../Views/homepage.php");
 ?>

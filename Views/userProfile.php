@@ -34,12 +34,11 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="nav-link px-0 align-middle">
-                            <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline">Orders</span></a>
+                        <a href="../Controllers/logout.php" class="nav-link px-0 align-middle">Logout</a>
                     </li>
                 </ul>
                 <hr>
-            </div>
+        </div>
 </div>
         <div class="col py-3">
           <br> <br>
