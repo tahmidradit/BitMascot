@@ -59,7 +59,7 @@
                         <label>Email</label>
                     </div>
                     <div class="col-4 mt-2">
-                        <input class="form-control" type="text" name="email" placeholder="Email" id="email" />
+                        <input class="form-control" type="text" onkeyup="check()" name="email" placeholder="Email" id="email" />  
                     </div>
                 </div>
                 <div class="form-group row">

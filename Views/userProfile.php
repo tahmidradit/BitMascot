@@ -27,7 +27,7 @@
                         <a href="../Controllers/usersList.php" class="nav-link align-middle px-0 text-white"><i class="fas fa-users"></i> &nbsp; Users </a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link align-middle px-0 text-white"><i class="fab fa-expeditedssl"></i> &nbsp; Change password</a>
+                        <a href="../Views/changePassword.php" class="nav-link align-middle px-0 text-white"><i class="fab fa-expeditedssl"></i> &nbsp; Change password</a>
                     </li>
                     <li>
                         <a href="../Controllers/logout.php" class="nav-link px-0 align-middle text-white"><i class="fas fa-sign-out-alt"></i> &nbsp; Logout</a>
