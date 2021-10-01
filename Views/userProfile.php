@@ -42,7 +42,7 @@
 
         <div class="mt-2">
             <table class="table table-hover table-bordered table-sm text-center" style="background-color:lightskyblue" width="100%">
-                <thead align="vertical">
+                <thead>
                      <tr>
                         <th>Id</th>
                         <th>User Name</th>
@@ -69,7 +69,6 @@
                     </tr>
                 </tbody>
             </table>
-
         </div>  
         </div>
     </div>
