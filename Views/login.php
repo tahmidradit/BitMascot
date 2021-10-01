@@ -22,6 +22,8 @@
                             <input class="form-control" type="password" name="password" placeholder="Password" id="password" />
                         </div>
                     </div>
+                    <input type="hidden" name="id">
+                    <input type="hidden" name="userName">
                     <input type="hidden" name="firstName">
                     <input type="hidden" name="lastName">
                     <input type="hidden" name="address">

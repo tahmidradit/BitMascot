@@ -24,17 +24,10 @@
 
                 <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
                     <li class="nav-item">
-                        <a href="#" class="nav-link align-middle px-0">
-                            <i class="fs-4 bi-house"></i> <span class="ms-1 d-none d-sm-inline">Home</span>
-                        </a>
+                        <a href="#" class="nav-link align-middle px-0 text-white"><i class="fab fa-expeditedssl"></i> &nbsp; Change password</a>
                     </li>
                     <li>
-                        <a href="#submenu1" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
-                            <i class="fs-4 bi-speedometer2"></i> <span class="ms-1 d-none d-sm-inline">Dashboard</span> 
-                        </a>
-                    </li>
-                    <li>
-                        <a href="../Controllers/logout.php" class="nav-link px-0 align-middle">Logout</a>
+                        <a href="../Controllers/logout.php" class="nav-link px-0 align-middle text-white"><i class="fas fa-sign-out-alt"></i> &nbsp; Logout</a>
                     </li>
                 </ul>
                 <hr>
