@@ -34,7 +34,7 @@
 
                         </div>
                         <div class="col-6 mt-2">
-                            <button class="btn btn-dark form-control text-white" type="submit" name="submit">Login</button>
+                            <button class="btn btn-dark form-control text-white" type="submit" name="submit"><i class="fas fa-sign-in-alt"></i> &nbsp; Login</button>
                         </div>
                     </div>
                 </form>

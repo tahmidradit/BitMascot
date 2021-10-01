@@ -91,7 +91,7 @@
 
                     </div>
                     <div class="col-4 mt-2">
-                        <input class="form-control btn btn-primary text-white" type="button" id="register" value="Submit" />
+                        <a class="form-control btn btn-primary text-white" type="button" id="register"><i class="fas fa-user-plus"></i> &nbsp; Submit</a>
                     </div>
                 </div>
             </form>

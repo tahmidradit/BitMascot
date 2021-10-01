@@ -1,4 +1,5 @@
 <link href="../lib/bootstrap-5.1.1-dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://kit.fontawesome.com/49cbe8ebac.js" crossorigin="anonymous"></script>
 
 <header class="customHeader">
         <nav class="navbar navbar-expand-lg navbar-light bg-primary">
