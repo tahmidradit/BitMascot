@@ -23,6 +23,9 @@
             <h4 class="fs-5 d-none d-sm-inline form-control badge bg-primary text-white"> <?php echo $row['FirstName'] ; echo "&nbsp;"; echo $row['LastName']; ?> </h4> 
 
                 <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
+                <li class="nav-item">
+                        <a href="../Controllers/usersList.php" class="nav-link align-middle px-0 text-white"><i class="fas fa-users"></i> &nbsp; Users </a>
+                    </li>
                     <li class="nav-item">
                         <a href="#" class="nav-link align-middle px-0 text-white"><i class="fab fa-expeditedssl"></i> &nbsp; Change password</a>
                     </li>

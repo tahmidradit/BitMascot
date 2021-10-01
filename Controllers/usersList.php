@@ -9,7 +9,8 @@
 ?>
 <br>
 <div class="container">
-<h2>Users List</h2><br>
+<h2>Users List</h2>
+<a href="../Views/userProfile.php">Go to profile</a> <br><br>
 <table id="usersList" class="table table-warning table-bordered table-sm text-center">
         <thead class="table table-secondary">
             <tr>
