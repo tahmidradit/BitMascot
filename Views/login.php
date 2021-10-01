@@ -1,26 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php include('navigation.php');?>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login - Bit Mascot</title>
-</head>
-
-<body>
-    <link href="../lib/bootstrap-5.1.1-dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="../lib/css/site.css">
-    <header class="customHeader">
-        <nav align="right">
-            <img align="left" src="../lib/images/BitMascot.png" />
-            <br />
-            <a style="text-decoration-line: inherit; color: white; margin: 3px;" href="homepage.html">Home</a> &nbsp;
-            <a style="text-decoration-line: inherit; color: white; margin: 5px;" href="../Views/login.php">Login</a>
-        </nav>
-    </header>
-
-    <br><br><br><br>
-
+    <br><br><br>
     <div align="center">
         <div class="card text-white" style="width: 70%;">
             <div class="card-header bg-primary">System Login</div>
